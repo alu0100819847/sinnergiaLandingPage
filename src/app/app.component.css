@@ -1,3 +1,9 @@
+body {
+  background-color: #d8ffdd6b;
+  min-height: 100vh;
+  max-width: 100vw;
+}
+
 .toolbar {
   position: absolute;
   top: 0;
@@ -6,9 +12,10 @@
   height: 60px;
   display: flex;
   align-items: center;
-  background-color: #1976d2;
+  background-color: #3e89b3;
   color: white;
   font-weight: 600;
+  box-shadow: 0 0 20px #8475758c;
 }
 
 .toolbar img {
@@ -23,3 +30,42 @@
 .toolbar #twitter-logo:hover {
   opacity: 0.8;
 }
+
+.spacer {
+  flex: 1;
+}
+
+.titleNavBar{
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+  height: 100%;
+}
+
+.buttonNavBar {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  height: 100%;
+  margin-right: 10px;
+  font-size: 1.1em;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.navBarButtonBar{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.buttonHover:hover {
+  background-color: #ffffff2b;
+}
+.center {
+  justify-content: center;
+}
+
