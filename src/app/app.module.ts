@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
 import { DescriptionComponent } from './description/description.component';
+import { SubscriptionFormComponent } from './description/subscription-form/subscription-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IndexComponent,
-    DescriptionComponent
+    DescriptionComponent,
+    SubscriptionFormComponent
   ],
   imports: [
     BrowserModule,

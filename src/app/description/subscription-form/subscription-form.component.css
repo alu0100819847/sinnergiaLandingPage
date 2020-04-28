@@ -1,0 +1,14 @@
+.subFormInput{
+  background-color: #ffffff50 !important;
+  border: #1a191952 1px solid !important;
+  border-radius: 5px !important;
+  color: white !important;
+}
+
+.label-color-white{
+  color: white;
+}
+
+.was{
+  height: 20px;
+}

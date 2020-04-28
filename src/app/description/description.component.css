@@ -1,0 +1,22 @@
+.desc-title{
+  font-size:3em;
+  font-weight: bold;
+}
+
+.desc-slogan{
+  font-size: 2.5em;
+  font-family: bold;
+}
+.description{
+  color: white;
+  margin: 50px;
+}
+
+.info{
+  font-size: 2em;
+  font-family: Georgia,Times,'Times New Roman',serif;
+}
+
+.object-description{
+  margin: 50px;
+}
