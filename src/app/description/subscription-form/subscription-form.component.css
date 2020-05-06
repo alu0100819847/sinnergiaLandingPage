@@ -12,3 +12,7 @@
 .was{
   height: 20px;
 }
+
+.subFormSelect{
+  display: inline-block !important;
+}
