@@ -1,0 +1,40 @@
+.info{
+  font-size: 2em;
+  font-family: Georgia,Times,'Times New Roman',serif;
+}
+
+.object-description{
+  margin: 50px;
+}
+
+.info-box{
+  margin-top: 15vh;
+  margin-bottom: 30px;
+}
+
+.desc-title{
+  font-size:3em;
+  font-weight: bold;
+}
+
+.desc-slogan{
+  font-family: Georgia,Times,'Times New Roman',serif;
+  font-size: 3em;
+  letter-spacing: 0.1em;
+  padding: 10px;
+}
+.description{
+  color: white;
+  margin: 50px;
+}
+.rs-icons{
+  max-height: 40px;
+}
+
+.icons-coll{
+  margin-top: 10px;
+}
+
+.description-box{
+  margin-bottom: 10px !important;
+}
