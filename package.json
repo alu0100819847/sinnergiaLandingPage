@@ -5,6 +5,10 @@
     "postinstall": "ng build --prod",
     "start": "node server.js"
   },
+  "engines": {
+    "node": "~12.14.1",
+    "npm": "~6.13.4"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~9.0.2",
