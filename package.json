@@ -2,12 +2,8 @@
   "name": "sinnergia-landing-page",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "postinstall": "ng build --prod",
+    "start": "node server.js"
   },
   "private": true,
   "dependencies": {
@@ -26,7 +22,8 @@
     "materialize-css": "^1.0.0",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
-    "zone.js": "~0.10.2"
+    "zone.js": "~0.10.2",
+    "express": "latest"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.900.3",
