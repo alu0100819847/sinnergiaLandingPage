@@ -13,9 +13,9 @@ notifications:
     recipients:
       - alu0100819847@ull.edu.es
 
-script:
-  - ng test --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
-  - ng e2e --protractor-config=e2e/protractor-travis.conf.js
+#script:
+#  - ng test --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
+#  - ng e2e --protractor-config=e2e/protractor-travis.conf.js
 
 # Deploy https://sinnergia-angular.herokuapp.com/
 deploy:
