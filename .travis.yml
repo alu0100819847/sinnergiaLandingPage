@@ -1,0 +1,27 @@
+language: node_js
+node_js:
+  - '12'
+addons:
+  chrome: stable
+branches:
+  only:
+    - develop
+    - /^release-[0-999].[0-999]$/
+    - master
+notifications:
+  email:
+    recipients:
+      - alu0100819847@ull.edu.es
+
+script:
+  - ng test --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
+  - ng e2e --protractor-config=e2e/protractor-travis.conf.js
+
+# Deploy https://sinnergia-angular.herokuapp.com/
+deploy:
+  provider: heroku
+  api_key: $HEROKU
+  on:
+    branch: master
+
+  app:  sinnergialandingpage
