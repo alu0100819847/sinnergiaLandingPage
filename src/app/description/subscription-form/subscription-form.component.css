@@ -2,11 +2,12 @@
   background-color: #ffffff50 !important;
   border: #1a191952 1px solid !important;
   border-radius: 5px !important;
-  color: white !important;
+  color: black !important;
 }
 
-.label-color-white{
-  color: white;
+.label-color{
+  color: black;
+  margin-left: 10px;
 }
 
 .was{
@@ -16,3 +17,12 @@
 .subFormSelect{
   display: inline-block !important;
 }
+
+.sinnergia-button {
+  text-transform: none !important;
+  background-color: #ffc824 !important;
+  border-radius: 40px;
+  color: black;
+  font-weight: bold;
+}
+

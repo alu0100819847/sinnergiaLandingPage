@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Gotu&display=swap');
 .desc-title{
   font-size:3em;
   font-weight: bold;
 }
 
 .desc-slogan{
-  font-size: 2.5em;
-  font-family: bold;
+  font-family: Georgia,Times,'Times New Roman',serif;
+  font-size: 3em;
+  letter-spacing: 0.1em;
+  padding: 10px;
 }
 .description{
   color: white;
@@ -19,4 +22,30 @@
 
 .object-description{
   margin: 50px;
+}
+
+.info-box{
+  margin-top: 30vh;
+  margin-bottom: 30px;
+}
+
+.sinnergia-button {
+  text-transform: none !important;
+  background-color: #ffc824 !important;
+  border-radius: 40px;
+  margin-top: 50px;
+  color: black;
+  font-weight: bold;
+}
+
+.rs-icons{
+  max-height: 40px;
+}
+
+.icons-coll{
+  margin-top: 100px;
+}
+
+.desc-form{
+  margin-top:20px;
 }

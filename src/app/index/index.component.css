@@ -32,13 +32,6 @@
 }
 
 
-.title{
-  background-image: url('src/assets/img/hojaStyle.png');
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-}
-
 .info{
   font-size: 2em;
   font-family: Georgia,Times,'Times New Roman',serif;

@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
   background-color: #00000000;
-  color: white;
+  color: black;
   font-weight: 600;
   box-shadow: 0 0 20px #8475758c;
 }
@@ -41,7 +41,7 @@
 .buttonNavBar {
   display: flex;
   align-items: center;
-  color: white;
+  color: black;
   text-decoration: none;
   height: 100%;
   margin-right: 10px;
