@@ -3,16 +3,22 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { IndexComponent } from './index/index.component';
+import { InfoComponent } from './info/info.component';
+import { MainComponent } from './main/main.component';
+import { SubscriptionFormComponent } from './main/subscription-form/subscription-form.component';
 import { DescriptionComponent } from './description/description.component';
-import { SubscriptionFormComponent } from './description/subscription-form/subscription-form.component';
+import { ContactComponent } from './contact/contact.component';
+import { SubscriptionFormDialogComponent } from './main/subscription-form/subscription-form-dialog/subscription-form-dialog.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    IndexComponent,
+    InfoComponent,
+    MainComponent,
+    SubscriptionFormComponent,
     DescriptionComponent,
-    SubscriptionFormComponent
+    ContactComponent,
+    SubscriptionFormDialogComponent
   ],
   imports: [
     BrowserModule,

@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {IndexComponent} from './index/index.component';
+import {InfoComponent} from './info/info.component';
+import {MainComponent} from './main/main.component';
 import {DescriptionComponent} from './description/description.component';
 
 
 const routes: Routes = [
-  {path: '', pathMatch: 'full', redirectTo: 'description'},
-  {path: 'index', component: IndexComponent},
+  {path: '', component: MainComponent},
+  {path: 'index', component: InfoComponent},
   {path: 'description', component: DescriptionComponent}
   ];
 
