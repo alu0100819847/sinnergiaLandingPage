@@ -7,7 +7,7 @@
 
 .desc-slogan{
   font-family: Georgia,Times,'Times New Roman',serif;
-  font-size: 3em;
+  font-size: 2.5em;
   padding: 10px;
   color: #099929;
   margin-top: 20px;
@@ -29,7 +29,7 @@
 }
 
 .info-box{
-  margin-top: 1vh;
+  padding-top: 10vh;
 }
 
 .logo-box{
@@ -47,8 +47,26 @@
   padding: 10px 20px;
   color: #50b566;
   border: 3px solid #50b566;
+  cursor: pointer;
 }
 
+.sinnergia-button:hover {
+  text-transform: none !important;
+  background-color: #eff48533 !important;
+  border-radius: 60px;
+  margin-top: 30px;
+  font-size: 1.6em;
+  font-weight: bold;
+  padding: 12px 22px;
+  color: #50b566;
+  border: 3px solid #50b566;
+  cursor: pointer;
+}
+
+.button-box{
+  height: 30px;
+  margin-bottom: 60px;
+}
 .rs-icons{
   max-height: 40px;
 }
@@ -73,7 +91,6 @@
   font-size: 2.3em;
   color: #dcad24;
   text-align: center;
-  margin-right: 50px;
 }
 
 .linea {

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-description',
+  selector: 'app-description-sinnergia',
   templateUrl: './description.component.html',
   styleUrls: ['./description.component.css']
 })
