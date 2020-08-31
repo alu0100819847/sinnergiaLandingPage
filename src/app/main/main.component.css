@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Gotu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
 .desc-title{
   font-size:3em;
   font-weight: bold;
@@ -7,8 +8,11 @@
 .desc-slogan{
   font-family: Georgia,Times,'Times New Roman',serif;
   font-size: 3em;
-  letter-spacing: 0.1em;
   padding: 10px;
+  color: #099929;
+  margin-top: 20px;
+  font-weight: bold;
+
 }
 .description{
   color: white;
@@ -25,17 +29,24 @@
 }
 
 .info-box{
-  margin-top: 30vh;
+  margin-top: 1vh;
+}
+
+.logo-box{
+  margin-top: 20vh;
   margin-bottom: 30px;
 }
 
 .sinnergia-button {
   text-transform: none !important;
-  background-color: #ffc824 !important;
-  border-radius: 40px;
-  margin-top: 50px;
-  color: black;
+  background-color: #ffffff00 !important;
+  border-radius: 60px;
+  margin-top: 30px;
+  font-size: 1.5em;
   font-weight: bold;
+  padding: 10px 20px;
+  color: #50b566;
+  border: 3px solid #50b566;
 }
 
 .rs-icons{
@@ -43,9 +54,29 @@
 }
 
 .icons-coll{
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .desc-form{
   margin-top:20px;
+}
+
+.logo-image{
+  width: 80%;
+}
+
+.subtitle-slogan {
+  margin-top: 10vh;
+  font-family: 'GFS Didot', serif;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 2.3em;
+  color: #dcad24;
+  text-align: center;
+  margin-right: 50px;
+}
+
+.linea {
+  margin-bottom: 5px !important;
+  margin-top: 5px !important;
 }

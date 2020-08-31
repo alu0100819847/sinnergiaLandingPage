@@ -1,40 +1,41 @@
-.info{
-  font-size: 2em;
-  font-family: Georgia,Times,'Times New Roman',serif;
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+.market-place{
+  background-color: #77f28f;
 }
 
-.object-description{
-  margin: 50px;
+.course{
+  background-color: #f5ef87;
 }
 
-.info-box{
-  margin-top: 15vh;
-  margin-bottom: 30px;
+.services{
+  background-color: #fac39d;
 }
 
-.desc-title{
-  font-size:3em;
-  font-weight: bold;
+.crowdfounding{
+  background-color:#fad2de;
 }
 
-.desc-slogan{
-  font-family: Georgia,Times,'Times New Roman',serif;
-  font-size: 3em;
-  letter-spacing: 0.1em;
-  padding: 10px;
-}
-.description{
-  color: white;
-  margin: 50px;
-}
-.rs-icons{
-  max-height: 40px;
+.content{
+  height: 70vh;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
-.icons-coll{
-  margin-top: 10px;
+.container-description{
+  margin: 30px;
+  font-family: 'Bree Serif', serif;
+  color: #606060;
+  text-align: center;
 }
 
-.description-box{
-  margin-bottom: 10px !important;
+.divider-sinnergia{
+  height: 1px;
+  background-color: #606060;
+  margin: 20px;
+}
+
+.container-box {
+  padding: 20px;
 }
