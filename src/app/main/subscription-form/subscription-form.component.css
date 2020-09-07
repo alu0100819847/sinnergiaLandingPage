@@ -1,3 +1,6 @@
+.container-form{
+  background-image: url("../../../assets/img/logo-png.png");
+}
 .subFormInput{
   background-color: #ffffff50 !important;
   border: #1a191952 1px solid !important;
@@ -28,4 +31,8 @@
 
 .form-bottom-margin{
   margin-bottom: 0px !important;
+}
+
+.registerFormButton{
+  margin-top: 20px;
 }

@@ -91,9 +91,11 @@
   font-size: 2.3em;
   color: #dcad24;
   text-align: center;
+  line-height: 40px;
 }
 
 .linea {
   margin-bottom: 5px !important;
   margin-top: 5px !important;
+  line-height: 40px;
 }

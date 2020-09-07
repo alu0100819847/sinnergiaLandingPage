@@ -16,9 +16,10 @@
 }
 
 .content{
-  min-height: 70vh;
+  min-height: 85vh;
   margin-left: 0px !important;
   margin-right: 0px !important;
+  padding-top: 20px;
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
@@ -38,4 +39,8 @@
 
 .container-box {
   padding: 20px;
+}
+
+.description-icons{
+  font-size: 2em;
 }
