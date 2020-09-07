@@ -9,6 +9,11 @@ import { SubscriptionFormComponent } from './main/subscription-form/subscription
 import { DescriptionComponent } from './description/description.component';
 import { ContactComponent } from './contact/contact.component';
 import { SubscriptionFormDialogComponent } from './main/subscription-form/subscription-form-dialog/subscription-form-dialog.component';
+import {FormsModule} from '@angular/forms';
+import {HttpService} from './services/http.service';
+import {MatDialogModule} from '@angular/material/dialog';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,9 +27,14 @@ import { SubscriptionFormDialogComponent } from './main/subscription-form/subscr
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    MatDialogModule,
+    BrowserAnimationsModule,
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [
+    HttpService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
